@@ -329,6 +329,17 @@ header.sticky #menu-icon{
     transition: all 1s ease;
 	cursor: pointer;
 }
+.destination a {
+	color: var(--main-color);
+	display: block;
+	margin: 30px 20px 0 0;
+	text-align: right;
+	font-size: 1.1rem;
+	transition: .3s;
+}
+.destination a:hover {
+	color: #604adc;
+}
 
 .newsletter{
 	display: flex;
@@ -385,7 +396,7 @@ header.sticky #menu-icon{
 	padding: 20px 0;
 }
 .list{
-	width: 25%;
+	width: 33.33%;
 }
 .list h4{
 	font-size: 21px;
