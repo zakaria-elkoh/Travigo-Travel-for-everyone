@@ -3,7 +3,6 @@
 }
 
 .info .container {
-    /* background-color: #ebebeb; */
     padding: 30px 10px;
     margin: 0 auto;
     display: grid;
@@ -88,7 +87,6 @@
 .contact form button:hover {
     background-color: #674feb;
 }
-
 
 
 @media (max-width: 887px) {

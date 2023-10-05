@@ -143,13 +143,16 @@ section{
 	transition: ease .40s;
 }
 .home-btn:hover{
-	background: #6049e1;
+	background: var(--bg-color);
 	transform: scale(1.1);
 }
 header.sticky{
 	background: var(--bg-color);
 	padding: 10px 18%;
 	box-shadow: rgba(33,35,38, 0.1) 0px 10px 10px -10px;
+}
+header.sticky #menu-icon{
+	color: #222;
 }
 .sticky .logo{
 	color: var(--text-color);
@@ -467,7 +470,7 @@ header.sticky{
 		color: var(--text-color);
 	}
 	.home{
-		height: 88vh;
+		height: 100vh;
 	}
 	.navbar{
 		position: absolute;
@@ -517,7 +520,10 @@ header.sticky{
 		text-align: center;
 	}
 	.home{
-		height: 85vh;
+		height: 100vh;
 		transition: .2s;
+	}
+	.home h1{ 
+		font-size: var(--big-font);
 	}
 }
